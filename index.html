@@ -1,1 +1,69 @@
-Hello World
+---
+layout: default
+---
+<div class="home">
+    <section>
+        <h2 class="smallcap">about</h2>
+        <p>I'm a Machine Learning Researcher in Selko.io .</p>
+	</section>
+    
+    <section>
+		<h2 class="smallcap">Publications</h2>
+
+        <p><b>Pub 1</b><br />
+        Names<br />
+        <i>Conference</i><br /> 
+        [<a href="http://arxiv.org/abs/1809.10040">paper</a>]</p>
+        
+	</section>
+    
+    <section>
+        <h2 class="smallcap">work</h2>
+        <ul style="list-style-type:disc">
+            <li>---.</li>
+            <br />
+            <li>---- .</li>
+            <br />
+            <li>---- .</li>
+        </ul>
+    </section>
+    
+	<section>
+        <h2 class="smallcap">reading group</h2>
+    </section>
+    
+    <section>
+        <h2 class="smallcap">Links</h2>
+	    <ul style="list-style-type:disc">
+            <li>Contact: aditya [dot] jitta [at] gmail [dot] com</li>
+            <li>Github: <a href="https://github.com/gradjitta">https://github.com/gradjitta</a></li>
+        </ul>
+    </section>
+
+<!--
+    <section>
+        <h2 class="smallcap">personal</h2>
+	    <ul style="list-style-type:disc">
+            <li><a href={{ "/music" }}>music</a></li>
+            <li><a href={{ "/writing" }}>writing</a></li>
+        </ul>
+    </section>
+-->
+	
+<!--
+    <section>
+		<h2 class="smallcap">posts</h2>
+		<ul class="post-list">
+			{% for post in site.posts limit:5 %}
+			<li>
+				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
+	</section>
+-->
+</div>
+
+<center><font size="2">This site is <a href="https://github.com/syaning/slim">slim</a>.</font></center>
